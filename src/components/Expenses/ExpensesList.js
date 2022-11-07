@@ -8,7 +8,7 @@ const ExpensesList = (props) => {
   }
 
   return (
-    <ul classname="expenses-list">
+    <ul className="expenses-list">
       {props.filter.map((expense) => (
         <ExpenseItem
           key={expense.id}
